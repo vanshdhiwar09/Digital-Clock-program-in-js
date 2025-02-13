@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
 }
 #clock{
     font-family: monospace;
@@ -19,4 +19,9 @@ body{
     text-align: center;
     color: rgba(252, 8, 8, 0.829);
     backdrop-filter: blur(3px) ;
+}
+#title{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
 }
